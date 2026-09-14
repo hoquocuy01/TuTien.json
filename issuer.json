@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "https://raw.githubusercontent.com/hoquocuy01/TuTien/main/issuer.json",
+  "type": "Profile",
+  "name": "Thái Thượng Tông Môn - Tiên Giới Dữ Liệu",
+  "url": "https://hoquocuy.id.vn",
+  "email": "contact@hoquocuy.id.vn",
+  "publicKeys": [
+    {
+      "id": "ecdsa-koblitz-pubkey:0x12345",
+      "created": "2026-01-01T00:00:00Z"
+    }
+  ]
+}
