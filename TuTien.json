@@ -9,7 +9,7 @@
     "BlockcertsCredential"
   ],
   "issuer": {
-    "id": "https://raw.githubusercontent.com/hoquocuy01/cert-test/main/issuer.json",
+    "id": "https://raw.githubusercontent.com/hoquocuy01/TuTien.json/main/TuTien.json",
     "type": "Profile",
     "name": "Thái Thượng Tông Môn - Tiên Giới Dữ Liệu",
     "url": "https://hoquocuy.id.vn",
