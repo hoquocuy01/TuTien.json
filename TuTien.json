@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "urn:uuid:TUTIEN001",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ],
+  "issuer": {
+    "id": "https://raw.githubusercontent.com/hoquocuy01/cert-test/main/issuer.json",
+    "type": "Profile",
+    "name": "Thái Thượng Tông Môn - Tiên Giới Dữ Liệu",
+    "url": "https://hoquocuy.id.vn",
+    "email": "contact@hoquocuy.id.vn",
+    "publicKeys": [
+      {
+        "id": "ecdsa-koblitz-pubkey:0x12345",
+        "created": "2026-01-01T00:00:00Z"
+      }
+    ]
+  },
+  "issuanceDate": "2026-09-14T00:00:00Z",
+  "credentialSubject": {
+    "id": "TT001",
+    "name": "HỒ QUỐC UY",
+    "degree": "Đại La Kim Tiên - Chân Nhân Cảnh Báo",
+    "sect": "Thiên Cơ Các",
+    "realm": "Đại La Kim Tiên Tỉnh Đỉnh"
+  },
+  "proof": {
+    "type": "MerkleProof2019",
+    "created": "2026-09-14T08:00:00Z",
+    "verificationMethod": "ecdsa-koblitz-pubkey:0x12345",
+    "proofPurpose": "assertionMethod",
+    "merkleRoot": "a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0",
+    "targetHash": "a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0",
+    "proofValue": "z3jG4TUTIEN_PROOF_VALUE_HERE_999"
+  }
+}
